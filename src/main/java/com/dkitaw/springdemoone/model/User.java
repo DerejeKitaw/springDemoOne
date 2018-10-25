@@ -7,7 +7,6 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-import org.springframework.data.jpa.domain.AbstractPersistable;
 
 @Entity(name="users")
 public class User  implements Serializable{
